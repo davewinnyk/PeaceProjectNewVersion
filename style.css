@@ -5,6 +5,7 @@
 }
 header{
     padding-top: 4rem;
+    padding-bottom: 1rem;
     font-family: 'Sigmar One', cursive;
     align-content: center;
     text-align: center;
@@ -26,6 +27,7 @@ body{
     color: black;
     font-family: 'Laila', serif;
     line-height: 4rem;
+    padding-bottom: 4rem;
 }
 .button{
     padding: 0.5rem 0.5rem;
@@ -41,3 +43,9 @@ body{
     border-radius: 12px;
     box-shadow: 1px 1px 2px #1A4F30;
 }
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: last baseline;
+}
+
