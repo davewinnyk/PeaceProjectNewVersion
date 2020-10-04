@@ -58,3 +58,8 @@ footer{
     min-width: 100rem;
     line-height: 4rem;
 }
+
+.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
