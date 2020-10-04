@@ -12,11 +12,12 @@
     <header>
         <h1><b>Contact us!</b> </h1>
     </header>
-    <form>
-        <input type="text" label="Name" class="nameInput">
-        <input type="email" label="Email" class="emailInput">
-        <input type="text" label="Subject" class="subjectInput">
-        <input type="text" label="Messge" class="messageInput">
+    <form name="peaceprojectcontactform" class="contact-form" method="POST" data-netlify="true">
+       <label>Name:<input type="text" name="Name" class="nameInput"></label>
+       <label>Email:<input type="email" name="Email" class="emailInput"></label>
+       <label>Subject: <input type="text" name="Subject" class="subjectInput"></label>
+       <label>Message: <textarea name="message" class="messageInput"></textarea></label>
+        <button class="form-submit" type="submit">Submit Contact Form</button>
     </form>
 
     <a href="https://anchor.fm/thepeaceproject" target="_blank">
