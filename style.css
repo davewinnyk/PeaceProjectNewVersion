@@ -59,8 +59,42 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    min-width: 100rem;
+    width: 50%;
     line-height: 4rem;
+}
+.nameInput,
+.emailInput,
+.subjectInput{
+    border: none;
+    background: #721AAD;
+    opacity: 70%;
+    border-radius: 12px;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: 'Laila', serif;
+    color: white;
+    min-width: 50rem;
+    min-height: 5rem;
+}
+.messageInput{
+    border: none;
+    background: #721AAD;
+    opacity: 70%;
+    border-radius: 12px;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: 'Laila', serif;
+    color: white;
+    min-width: 50rem;
+    min-height: 10rem;
+}
+.nameInput input,
+.emailInput input,
+.subjectInput input{
+font-size: 16px;
+}
+.contact-form label {
+    font-size: 20px;
 }
 
 .mid-text{
