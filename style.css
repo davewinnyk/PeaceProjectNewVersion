@@ -73,7 +73,7 @@ footer{
     padding-top: 20px;
     font-family: 'Laila', serif;
     color: white;
-    min-width: 50rem;
+    min-width: 20rem;
     min-height: 5rem;
 }
 .messageInput{
@@ -85,7 +85,7 @@ footer{
     padding-top: 20px;
     font-family: 'Laila', serif;
     color: white;
-    min-width: 50rem;
+    min-width: 20rem;
     min-height: 10rem;
 }
 .nameInput input,
