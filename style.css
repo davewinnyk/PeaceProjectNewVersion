@@ -39,6 +39,7 @@ body{
     font-size: 1.5rem;
     font-family: 'Laila', serif;
 }
+.form-submit:hover,
 .button:hover{
     background: #721AAD;
 }
