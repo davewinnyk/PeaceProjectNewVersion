@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/davewinnyk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thepeaceprojectmeditations.com
+  * I am davewinnyk (https://keybase.io/davewinnyk) on keybase.
+  * I have a public key with fingerprint F467 206D BE95 5298 8E88  62FB EBEB 2F97 F32E 0D1D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120712536802c3f9f3c45b1a74655c1c3a6b6d380ad515a96176fb3aea9282245b90a",
+      "fingerprint": "f467206dbe9552988e8862fbebeb2f97f32e0d1d",
+      "host": "keybase.io",
+      "key_id": "ebeb2f97f32e0d1d",
+      "kid": "010136c0a0166fb73efdf3f29c665e0082f07093ec064934bb1db2b5c5759f1e86f10a",
+      "uid": "b4f82ad06b1bbecdc8bc4e4717c3da19",
+      "username": "davewinnyk"
+    },
+    "service": {
+      "hostname": "thepeaceprojectmeditations.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1615187643,
+  "expire_in": 157680000,
+  "prev": "70495db3447671ee10087044cee395211b43a13356f0d045b386bf037af23612",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMOFAnicbZJ9UBZFHMcBIV4CJHJSSJOOciAZuL2XvTvGShNKnCHSaaLS6fFubw/u
+Ae55eJ4DQUBDG0bEFM0ilYAgksEY7AURxQKCijARi2wElRBmeDGmFxUjjPZh9L92
+/9jZ335/n993f7udAQvc/NwnJ2PK/ooOWObe0/5JltuW+PNn8ijFpuZSsXlUGp5f
+cLqKnaYlTVepWIoGDC0AhmehSDOI1SSNRRyvAFngIM8jgFgZKlBlRVpWecDLEgQC
+1BRWxrLEiAxDtBItU1GUphsp2GF36IZJsBoHBYaGqoIlnmckUcSiCBlNwWQymiRo
+LINpFagkMdXmdGUQc4rsxNG6jcTIxjJv73/0933TgIWIlmkAiR+BxZqqsRojIQh5
+TNMio9ECLbEY0ZCTWE5RgKowCo94gZc0gEWogXnfWfM4hdNERlZpqABFwUhFooI4
+zAlAQKwqA8kldGKHIWdgolblbLxVN4zcNKogiiLxbB1hV2tdd7mnMVOxHcsI2x02
+K0ZmBlZ1UzZ1m+GMRrYMwiMHpg3Z0ok21TTtzlgXy8y1u5K3YsVyD2tRdEMlvSUZ
+2djhJAAqFhAlMnVXHQABD0QBcmwUhXPsugNbdJeCF8iDkuGqg7MJUqA5iVcVluME
+KACMAekRiXEIY1biGQAUjpUBy/JQo1WaPCsrQkWjWUHWGBYChnJdNNOwEbZEfMop
+hOnUUwzZzHJgqqCjfbOnm7uf2wNeHq5P5+bnG3T/K3b0LZxLPN1fEZ50fU/Q6lNe
+jFfS/k+PqGJMY2ao4NtW7R84nKetj/hlzjerwa/94s7ZqqybT8Vt7Eyd65rxKatu
+7tkV753TIo5P1ja2ZZtt+0pvrQg9XLUvrEbu2uR77Xl74dXBKp/W2aM7Kmx9cQ99
+0893J77jfSBQs6wee3TixIVNcBodv/ad10FrycBjOb1TzRunFjfsrxsJSS3NNy/f
+vX3gNB3pLIj2XPPM0CPf29zCxvsql7S/1+1rtA0XVWoNGyp7jzcOxW+Le/KJIo/X
+ZsKOjaOWYx9PXe4q/Lb4rDJRM9t85l3nZF7M+aCnj043jXgOxybs6Vnqv3O0I3/V
+8M9nh4RlZQcVx96TrQmtc9u9N7/1+14YYjHi7lzxuWVNtEa2f+asz1/15UQ1Soua
+6LT2fTXmL/toHSce35K3q/yV8iUf+GwfOPJ696T6dktI2h8zCyqu8Ctq13SVG+e+
+aH22ZCQv48bcn8bY4EIOdY/fzIm4WPJS49Sg/OKdiJTD/n4fpidk17/xXEjAy0lU
+8I7idckd/Ubw1UWtL9zeUNf70d8Phhd2rB39dXcm9bm2+FJkQfVw62/W5cg9xF7Y
+FH1qNOan5W1y7Zh3+KLk6SEQ9HBNVNOr60KV0qq64huBYfWNS6/7/fh10Q/jdw9l
+TL15KSL3gnV3os+24PWHpgJOJk/G/usR9z4MXjlwbuIftPI/FhfStA==
+=QwYF
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/davewinnyk
+
+==================================================================
