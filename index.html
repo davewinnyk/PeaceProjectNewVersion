@@ -1,33 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;500;700&family=Sigmar+One&display=swap" rel="stylesheet">
-    <link rel="icon" 
-      type="image/jpg" 
-      href="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_nologo400/1542694/1542694-1552433860133-6a4283e2d8339.jpg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css">
-    <title>Peace Project Meditations - Home</title>
-</head>
-<body>
-    <header>
-        <h1><b>Peace Project<br>Meditations</b> </h1>
-    </header>
-    <img src="https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded_nologo400/1542694/1542694-1552433860133-6a4283e2d8339.jpg"class="logo">
-    <h3 class="mid-text">Meditation is a skill we can all practice <br> Now is the time to meditate.</h3>
-    <a href="https://anchor.fm/thepeaceproject" target="_blank">
-    <button class="button" id="Listen"><b>Listen to the Podcast</b></button>
-</a>
+<html>
+<title>Peace Project Meditations - Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;500;700&family=Sigmar+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-indigo.css">
+<link rel="icon" 
+  type="image/jpg" 
+  href="/Images/Peace Project Logo.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
-<a href="./Contact.html">
-    <button class="button" id="Contact"><b>Contact Us</b></button>
-</a>
-<div class="Phone number">
-    <h3>Call (773)902-0622 to leave a message!</h3>
+<style>
+h1,h2,h3,h4 {font-family: "Sigmar One"}
+body, h5, h6, p {font-family: "Laila"}
+</style>
+
+<body class="w3-theme-l2">
+  <div class="w3-sidebar w3-bar-block w3- w3-border-right w3-theme-d5" style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    <a href="Listen.html" class="w3-bar-item w3-button"><i class="fa fa-volume-up"></i> Where to Listen</a>
+    <a href="Contact.html" class="w3-bar-item w3-button"><i class="fa fa-mail-bulk"></i> Contact Us</a>
+    <a href="https://anchor.fm/thepeaceproject/support" class="w3-bar-item w3-button"><i class="fa fa-dollar-sign"></i> Donate</a>
+
+  </div>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <button class="w3-left w3-button w3-xlarge" onclick="w3_open()"><i class="fa fa-list"></i></button>
+  <h1><b>The Peace Project Meditations</b></h1>
+  <p>Listen and gain <span class="w3-tag">PEACE</span></p>
+</header>
+<!-- Grid -->
+<div class="w3-row">
+    
+
+
+<div class="w3-col l8 s12">
+  <!-- Quick Meditations -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Quick Meditations (5-10 minutes)</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/5-Minute-Anxiety-Relief-Meditation-e4g01d"><i class="fa fa-cloud" style="color: rgb(35, 23, 107);"></i>
+        <span class="w3-large">Anxiety Relief</span><br></a>
+        <span><p>Slow down your anxiety and begin to separate the sensations from the negativity attached to them.</p>
+          </span>
+      </li>
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/5-Minute-Stress-Relief-Through-Breathing--Learn-to-relax-through-a-simple-and-effective-breathing-exercise-e4buoa"><i class="fa fa-bullseye" style="color: rgb(35, 23, 107);"></i>
+        <span class="w3-large">Distraction Relief</span><br></a>
+        <span><p>This quick meditation will give you insight and peace when you are upset over being distracted. </p>
+         </span>
+      </li>
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/Universal-perspective--Relieve-anxiety--stress--and-depression-by-focusing-on-the-universe-eanfnm"><i class="fa fa-sun" style="color: rgb(35, 23, 107);"></i>
+        <span class="w3-large">Universal Perspective</span><br></a>
+        <span><p>Expand your awareness to the universe and out of your day to day perspective.</p>
+          </span>
+      </li>  
+
+    </ul>
+  </div>
+  <!-- Most Recent Episodes  -->
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+
+      <div class="w3-container">
+        <h3><b>Most Recent Episodes</b></h3>
+      </div>
+  
+      <div class="w3-container">
+
+        <div class="w3-row">
+
+          <div class="w3-col m4 w3-hide-small">
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog entry -->
+    <div class="w3-card-4 w3-margin w3-white">
+      <img src="/Images/absolvingyourselfofego.jpg" alt="Man in sillhoute staring at the milky way with beautiful colors" style="width:100%">
+        <div class="w3-container">
+          <h3><b>Absolving Yourself of Ego</b></h3>
+          <h5>16 minute meditation <span class="w3-opacity">March 13, 2021</span></h5>
+        </div>
+    
+        <div class="w3-container">
+          <p>We can often feel like the world is on our shoulders or that we are responsible for everything that has happened to us. This meditation focuses on your breath to explore our own egos and determine what we are in control of.</p><p> Photo by <a href="https://unsplash.com/@grakozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Greg Rakozy</a> on <a href="/s/photos/meditation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </p>
+          <div class="w3-row">
+            <div class="w3-col m8 s12">
+              <p><a href="https://anchor.fm/thepeaceproject/episodes/Absolving-Yourself-of-Ego--a-meditation-to-explore-our-self-centered-nature-eqnrmj"><button class="w3-button w3-padding-large w3-white w3-border"><b>LISTEN »</b></button></a></p>
+            </div>
+            <div class="w3-col m4 w3-hide-small">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/Images/greetingallasyourfriend.jpg" alt="Three women stand in sillhoute atop a mountain on a hazy yellow day at sunset." style="width:100%">
+    <div class="w3-container">
+      <h3><b>Greeting All as Your Friend</b></h3>
+      <h5>15 minute meditation <span class="w3-opacity">March 6, 2021</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>We have the oppurtunity in each moment to greet our hopes, fears, desires, and sensations. This meditation helps you see these as friends and welcome them into your life. </p>
+      <p>Photo by <a href="https://unsplash.com/@kmagnuson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karl Magnuson</a> on <a href="/s/photos/friends?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><a href="https://anchor.fm/thepeaceproject/episodes/Greeting-All-as-Your-Friend--Meditation-for-feeling-in-harmony-with-the-world-eqdeua"><button class="w3-button w3-padding-large w3-white w3-border"><b>LISTEN »</b></button></a></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/Images/Experiencing sensation.jpg" alt="A young asian women tilts her head back with eyes closed in a tropical forest. She seems at peace." style="width:100%">
+    <div class="w3-container">
+      <h3><b>Examining Sensaton</b></h3>
+      <h5>17 minute meditation <span class="w3-opacity">February 27, 2021</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>As we grow, we learn about the material facts of sensations. This can often block our mind from truly engaging with the sensation itself and feeling it as we experience it. This meditation will help you examine your feelings and sensations to experience them more fully. </p>
+      <p>Photo by <a href="https://unsplash.com/@cris_trung?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cris Trung</a> on <a href="/s/photos/touch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><a href="https://anchor.fm/thepeaceproject/episodes/Examining-Sensation--a-meditation-for-feeling-eqgp11"><button class="w3-button w3-padding-large w3-white w3-border"><b>LISTEN »</b></button></a></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+<!-- END BLOG ENTRIES -->
 </div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/Images/Peace Project Logo.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4>Cultivate Inner Peace</h4>
+      <p>Join me on my quest for inner peace. Mediation is a practice that has helped me manage depression, reduce stress, relieve anxiety, better experience joy, and become more aware of my conscious experience. I want you to join me. </p>
+    </div>
+  </div><hr>
+  
+  <!-- Most Popular Episodes -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Most Popular Episodes</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/Sleep-Meditation-1--Fall-asleep-faster-e3gjt6"><img src="/Images/fall asleep Faster.jpg" alt="A women fast asleep" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Fall Asleep Faster</span><br></a>
+        <span><p>A quick sleep meditation to listen to before bed to help you drift off to a pleasant and relaxing dream.</p>
+          <p>Photo by <a href="https://unsplash.com/@byrdman85?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ashley Byrd</a> on <a href="/s/photos/sleeping?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p></span>
+      </li>
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/Overcoming-Obsessive-Thoughts-and-Negative-Thought-Patterns--Using-Simple-Rational-Acts-to-Find-Peace-e4hpcg"><img src="/Images/overcoming obsessive.jpg" alt="A man holding his hands to his face in anxiety" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Overcoming Obsessive Thoughts and Negative Thought Patterns</span><br></a>
+        <span><p>Today’s meditation is about using simple truths and rational actions to overcome obsessive thoughts and/or negative thought patterns.</p>
+          <p>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="/s/photos/nervous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+        </p></span>
+      </li>
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/Self-Guided-30-Minute-Meditation--Meditation-without-guide-e5ddmm"><img src="/Images/self guided.jpg" alt="A women holding her hand to her chest in affirmation" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Self Guided 30 Minute Meditation</span><br></a>
+        <span><p>Learn to meditate by practicing your own meditation. Use this space of thirty minutes (with check ins every ten minutes) to guide yourself on a meditation. </p>
+          <p>Photo by <a href="https://unsplash.com/@dariusbashar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Darius Bashar</a> on <a href="/s/photos/meditation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+        </p></span>
+      </li>  
+      <li class="w3-padding-16">
+        <a href="https://anchor.fm/thepeaceproject/episodes/Relieving-Negativity-by-Focusing-on-Humanity--Stress--Anxiety--and-Depression-meditation-ea4bh5"><img src="/Images/humanity.jpg" alt="Women in a conference room meditating" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Relieving Negativity by Focusing on Humanity</span><br></a>
+        <span><p>This meditation will help you find exhilaration and freedom in awe inspiring feelings.  </p>
+          <p>Photo by <a href="https://unsplash.com/@erik_brolin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Erik Brolin</a> on <a href="/s/photos/meditation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+          </p></span>
+      </li> 
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags 
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  -->
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+<script>function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}</script>
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <!-- 
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  -->
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
 </body>
-<footer class="footer">Copyright The Peace Project Meditations 2020</footer>
 </html>
-<!--COPYRIGHT DAVID BRYAN WINNYK & THE PEACE PROJECT MEDITATIONS 2020-->
